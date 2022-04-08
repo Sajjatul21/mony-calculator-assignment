@@ -15,6 +15,11 @@
 }
 
 
+#input-smaller {
+    width: 35%;
+}
+
+
 .error-message {
     display: none;
     color: red;
