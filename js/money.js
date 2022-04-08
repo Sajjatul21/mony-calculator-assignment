@@ -67,6 +67,7 @@ document.getElementById('save-btn').addEventListener('click', function () {
 
     const remainingBalance = document.getElementById('remaning');
     const totalBalance = document.getElementById('total-balance').innerText;
+    //error message
     if (totalBalance < savingMony) {
         const savingError = document.getElementById('saving-error');
         savingError.style.display = 'block'
