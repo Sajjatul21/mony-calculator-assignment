@@ -14,11 +14,11 @@ function getError(value) {
 }
 // get cost input 
 function getInput(str) {
-    const firstExpensesInputText = document.getElementById(str);
-    const firstExpensesInput = Number(firstExpensesInputText.value);
-    getError(firstExpensesInput)
+    const ExpensesInputText = document.getElementById(str);
+    const ExpensesInput = Number(ExpensesInputText.value);
+    getError(ExpensesInput)
 
-    return firstExpensesInput;
+    return ExpensesInput;
 
 
 }
